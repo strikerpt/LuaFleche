@@ -1,5 +1,5 @@
 # LuaFleche
-Creation d'une fleche pointant vers le haut en fonction de la taille specifiee par l'utilisateur.
+Création d'une fleche pointant vers le haut en fonction de la taille specifiée par l'utilisateur.
 
 # Installation
 Il faut executer le script:
@@ -8,17 +8,15 @@ Il faut executer le script:
 ```
 # Utilisation
 Il faut faire:
-
 ```
 ./luaFleche taile_de_la_fleche
 ```
-# Demonstration
-Il faut juste faire tourner:
-
+# Démonstration
+Il faut tourner:
 ```
 ./start.sh
 ```
-# References
+# Références
 https://fr.wikipedia.org/wiki/Lua
 https://www.lua.org/manual/5.3/manual.html
 https://wxlua.developpez.com/tutoriels/lua/general/cours-complet
