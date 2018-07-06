@@ -1,5 +1,5 @@
 #!/usr/bin/lua5.3
--- Dessine une fleche sur la console
+-- Dessine une flèche sur la console
 -- hv 180706.1059
 -- source:
 
