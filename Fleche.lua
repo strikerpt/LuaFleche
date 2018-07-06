@@ -6,20 +6,19 @@
 taille_fleche=arg[1]
 
 -- pointe de la fleche
-for i=1, taille_fleche do io.write(" ") end print("*")
+print(string.rep(" ",taille_fleche).."*")
 
 -- tete de la fleche
 for j=1, taille_fleche-2 do
-	for i=1, taille_fleche-j-1 do io.write(" ") end io.write("*")
-	for g=1, 2*j+1 do io.write(" ")	end print("*")
-end
-
+	io.write(string.rep(" ",taille_fleche-j-1).."*") 
+	print(string.rep(" ",2*j+1).."*")
+end 
 -- bas de la tete de la fleche
-for i=1, taille_fleche*2 do io.write("*")end print("*")
+print(string.rep("*",taille_fleche*2+1))
 
 -- queue de la fleche
 for j=1, taille_fleche do
-	for i=1, taille_fleche do io.write(" ")end print("*")
+	print(string.rep(" ",taille_fleche).."*")
 end
 
 
