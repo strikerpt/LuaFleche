@@ -19,4 +19,3 @@ for i=1, 2*taille_fleche do
 	elseif i>taille_fleche then print(string.rep(" ",taille_fleche).."*")
 	end
 end
-
