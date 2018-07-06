@@ -1,30 +1,22 @@
 #!/usr/bin/lua5.3
 -- Dessine une fleche sur la console
--- hv 180706.0858
+-- hv 180706.1059
 -- source:
 
-taille_fleche=arg[1]
+taille_fleche= tonumber(arg[1])
 
+for i=1, 2*taille_fleche do 
 -- pointe de la fleche
-print(string.rep(" ",taille_fleche).."*")
-
+	if i==1 then print(string.rep(" ",taille_fleche).."*")
+	
 -- tete de la fleche
-for j=1, taille_fleche-2 do
-	io.write(string.rep(" ",taille_fleche-j-1).."*") 
-	print(string.rep(" ",2*j+1).."*")
-end 
+	elseif i==2 or i<taille_fleche then print(string.rep(" ",taille_fleche-i).."*"..string.rep(" ",2*i-1).."*")
+
 -- bas de la tete de la fleche
-print(string.rep("*",taille_fleche*2+1))
+	elseif i==taille_fleche then print(string.rep("*",taille_fleche*2+1))
 
 -- queue de la fleche
-for j=1, taille_fleche do
-	print(string.rep(" ",taille_fleche).."*")
+	elseif i>taille_fleche then print(string.rep(" ",taille_fleche).."*")
+	end
 end
-
-
-
-
-
-
-
 
