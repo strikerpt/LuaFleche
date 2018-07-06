@@ -5,5 +5,3 @@
 ./Fleche.lua 3
 ./Fleche.lua 6
 ./Fleche.lua 9
-
-
