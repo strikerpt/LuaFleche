@@ -1,7 +1,6 @@
 #!/usr/bin/lua5.3
 -- Dessine une fleche sur la console
 -- hv 180710.1106
--- source:
 
 taille_fleche=tonumber(arg[1])
 if taille_fleche and (taille_fleche>=2) and (taille_fleche<=20) then
